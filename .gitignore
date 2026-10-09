@@ -1,0 +1,25 @@
+# Attack/Defense artifacts
+*.log
+logs/
+*.pcap
+traffic/
+evidence/
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+build/
+dist/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Sensitive
+credentials.txt
+passwords.txt
+api_keys.txt
